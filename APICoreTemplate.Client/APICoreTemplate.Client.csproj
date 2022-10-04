@@ -4,4 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APICoreTemplate.Shared.Models\APICoreTemplate.Shared.Models.csproj" />
+  </ItemGroup>
+
 </Project>

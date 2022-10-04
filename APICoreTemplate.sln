@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICoreTemplate.Core", "API
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICoreTemplate.Shared.Models", "APICoreTemplate.Shared.Models\APICoreTemplate.Shared.Models.csproj", "{5BEAE345-C11E-4D48-90EA-0F82A86BF648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICoreTemplate.Client", "APICoreTemplate.Client\APICoreTemplate.Client.csproj", "{6644B984-51DA-4207-BD15-8F05D3406897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICoreTemplate.Client", "APICoreTemplate.Client\APICoreTemplate.Client.csproj", "{6644B984-51DA-4207-BD15-8F05D3406897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICoreTemplate.Client.Test", "APICoreTemplate.Client.Test\APICoreTemplate.Client.Test.csproj", "{9CE605DE-3814-493C-B36D-D9B6273C1A08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6644B984-51DA-4207-BD15-8F05D3406897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6644B984-51DA-4207-BD15-8F05D3406897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6644B984-51DA-4207-BD15-8F05D3406897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE605DE-3814-493C-B36D-D9B6273C1A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE605DE-3814-493C-B36D-D9B6273C1A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE605DE-3814-493C-B36D-D9B6273C1A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE605DE-3814-493C-B36D-D9B6273C1A08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

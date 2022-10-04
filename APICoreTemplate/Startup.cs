@@ -20,6 +20,7 @@ namespace APICoreTemplate
         {
             services.AddSingleton<IServerDataFactory>(new ServerDataFactory(Configuration.GetSection("ConnectionString").Value));
             services.AddControllers();
+            services.AddSwaggerDocument();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -28,6 +29,9 @@ namespace APICoreTemplate
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseHttpsRedirection();
 

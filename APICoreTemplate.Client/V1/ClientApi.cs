@@ -24,6 +24,7 @@ namespace APICoreTemplate.Dashboard.ClientApi
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "13.17.0.0 (NJsonSchema v10.8.0.0 (Newtonsoft.Json v11.0.0.0))")]
     public partial interface IDBClient
     {
+
         /// <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
         /// <exception cref="RestClientException">A server side error occurred.</exception>
         System.Threading.Tasks.Task<FileResponse> CheckConnectionAsync(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));

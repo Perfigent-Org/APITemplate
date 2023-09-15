@@ -139,7 +139,7 @@ Open a command prompt or terminal window and enter the following command to chec
   nswag --version
 ```
 
-**2. Updating NSwag (If Already Installed):***
+**2. Updating NSwag (If Already Installed):**
 
 ```bash
   npm update nswag -g

@@ -123,7 +123,7 @@ This template includes an auto-generated API client powered by NSwag. NSwag simp
 
 **Configuring NSwag for Client Generation:**
 
-Before you can generate the client using the provided PowerShell script (PS1 *GenerateApiClient.ps1*), you need to configure NSwag on your local machine. Here are the steps to set up NSwag:
+Before you can generate the client using the provided PowerShell script (PS1 [*GenerateApiClient.ps1*](https://github.com/Perfigent-Org/APITemplate/blob/master/APICoreTemplate.Client/V1/GenerateApiClient.ps1)), you need to configure NSwag on your local machine. Here are the steps to set up NSwag:
 
 Verifying NSwag Installation and Version
 

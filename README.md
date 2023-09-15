@@ -131,7 +131,7 @@ Before generating API clients with NSwag, it's important to verify that NSwag is
 
 To configure NSwag for client generation, follow these steps:
 
-**1. Verify NSwag Installation:**
+- **Verify NSwag Installation:**
 
 Open a command prompt or terminal window and enter the following command to check if NSwag is installed:
 
@@ -139,13 +139,13 @@ Open a command prompt or terminal window and enter the following command to chec
   nswag --version
 ```
 
-**2. Updating NSwag (If Already Installed):**
+- **Updating NSwag (If Already Installed):**
 
 ```bash
   npm update nswag -g
 ```
 
-**3. Install NSwag Globally:**
+- **Install NSwag Globally:**
 
 NSwag is a Swagger 2.0 API (OpenAPI) toolchain for .NET and other platforms. It can be used to generate client code from Swagger specifications. To install NSwag globally, run the following npm command:
 
@@ -153,7 +153,7 @@ NSwag is a Swagger 2.0 API (OpenAPI) toolchain for .NET and other platforms. It 
   npm install nswag -g
 ```
 
-**4. Change Runtime:**
+- **Change Runtime:**
 
 Depending on your project's runtime, you may need to specify the runtime version when using NSwag. For example, to use .NET Core 2.1, run the following command:
 
@@ -161,13 +161,13 @@ Depending on your project's runtime, you may need to specify the runtime version
   nswag version /runtime:NetCore21
 ```
    
-**5. Additional Details:**
+- **Additional Details:**
 
 For more detailed information on NSwag and its capabilities, you can visit the official npm page for NSwag:
 
 [NSwag on npm](https://www.npmjs.com/package/nswag)
 
-**6. Download NSwagStudio:**
+- **Download NSwagStudio:**
 
 To simplify the configuration and usage of NSwag, you can download NSwagStudio, which provides a graphical user interface for NSwag. You can find the NSwagStudio MSI installer here:
 

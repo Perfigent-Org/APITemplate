@@ -1,6 +1,7 @@
 # API Core Template
 
-![GitHub License](https://img.shields.io/github/license/YourOrganization/API-Core-Template)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
 The API Core Template is a versatile and dynamic solution for quickly building API projects using .NET Core and .NET Standard. It provides a set of essential components and templates to accelerate your API development process, allowing you to focus on implementing your business logic without the hassle of setting up boilerplate code.
 
@@ -204,7 +205,11 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 Simplify your API development process with the API Core Template. Build APIs quickly and efficiently, focusing on what matters most—your unique business logic.
 
-For additional assistance, please contact our support team at [hello@perfigent.com](mailto:hello@perfigent.com).
+## Contact Information
+
+If you have any questions, feedback, or encounter issues, please don't hesitate to reach out:
+
+- Email: [hello@perfigent.com](mailto:hello@perfigent.com)
 
 ---
 

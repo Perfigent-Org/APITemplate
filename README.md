@@ -167,7 +167,7 @@ For more detailed information on NSwag and its capabilities, you can visit the o
 
 [NSwag on npm](https://www.npmjs.com/package/nswag)
 
-**4. Download NSwagStudio:**
+**6. Download NSwagStudio:**
 
 To simplify the configuration and usage of NSwag, you can download NSwagStudio, which provides a graphical user interface for NSwag. You can find the NSwagStudio MSI installer here:
 
